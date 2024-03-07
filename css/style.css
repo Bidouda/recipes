@@ -1,0 +1,37 @@
+body {
+  background-color: beige;
+  color:gray;
+}
+
+h1 {
+  color: brown;
+  font-size: 48px;
+  font-family: Georgia, 'Times New Roman', Times, serif, serif;
+  text-align: center;
+}
+
+h2 {
+  color: brown;
+  font-size: 36px;
+  font-family: Georgia, 'Times New Roman', Times, serif, serif;
+  text-align: left;
+}
+
+p, ol, ul {
+  color: black;
+}
+
+ul.navigation {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+ul.navigation li {
+  border: 1px solid black;
+  margin-right: 15px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  display: inline;
+  background-color: pink;
+}
